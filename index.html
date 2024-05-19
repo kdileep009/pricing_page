@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+
+  <title>Frontend Mentor | Pricing Page</title>
+
+  <!-- CSS stylesheet -->
+  <link rel="stylesheet" href="css/styles.css">
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Montserrat:700&display=swap" rel="stylesheet">
+
+
+</head>
+
+
+<body>
+<div class="container">
+
+  <header>
+    <div class="title">
+      <h1>SmartHome Genie</h1>
+      <h3>Our Pricing</h3>
+    </div>
+    <div class="switch-section">
+      <h6 class="sub-title">Annually<label class="switch"><input type="checkbox"><span class="slider round"></span></label>Monthly</h6>
+    </div>
+    <div class="conversion">
+      <label >
+      <input type="checkbox" class="box"  id="currency-toggle"><span class="space">Show price in INR</span>
+    </label>
+    </div>
+    
+
+  </header>
+
+  <div class="grid-parent">
+
+    <div class="card basic-card">
+
+      <h4 class="card-title">Basic setup</h4>
+
+      <h1 class="price special-price price-item" data-usd="20" style="display: none"><span>$</span>19.99</h1>
+      <h1 class="price special-price price-item" data-usd="200"><span>$</span>200</h1>
+      <hr id="hr">
+      <h3>Essential smart Home Automation</h3>
+      <div>
+        <button class="button btn" type="button" name="button">LEARN MORE</button>
+      </div>
+    </div>
+
+    <div class="card professional-card">
+      <h4>Full Integration</h4>
+      <h1 class="price price-item" data-usd="30" style="display: none"><span>$</span>30</h1>
+      <h1 class="price price-item" data-usd="300" ><span>$</span>300</h1>
+      <hr>
+      <h3>Comprehensive smart Home Automation</h3>
+      <div>
+        <button class="professional-button pro-btn" type="button" name="button">LEARN MORE</button>
+      </div>
+    </div>
+    <div class="card master-card">
+
+      <h4 class="card-title">Remote monitoring</h4>
+      <h1 class="price price-item" data-usd="50" style="display: none"><span>$</span>50</h1>
+      <h1 class="price price-item" data-usd="500"><span>$</span>500</h1>
+      <hr id="hr">
+      <h3>24/7 Remote smart Home monitoring</h3>
+      <div>
+        <button class="button btn" type="button" name="button">LEARN MORE</button>
+      </div>
+    </div>
+  </div>
+
+ 
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="index.js"></script>
+  </div>
+</body>
+
+</html>
